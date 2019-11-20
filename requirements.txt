@@ -1,0 +1,6 @@
+#Usage : python csvtostix.py <-f>/<-F> file_name/folder_name
+#        Example : python csvtostix.py -f APT34.csv - for single .csv file
+#        Example : python csvtostix.py -F /home/user/Desktop/IOC_files/ - For entire directory
+#        Note: Submit the folder, which does not contain any subfolders.
+pip3 install stix2
+#if using python 2, then pip install stix2
